@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hello World — A-Frame</title>
+  
+  
+  
+  
+  
+</head>
+
+<body>
+
+  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+
+<a-scene>
+  <a-assets>
+    <a-asset-item id="control-obj" src="assets/controldeciber.obj"></a-asset-item>
+    <a-asset-item id="control-mtl" src="assets/controldeciber.mtl"></a-asset-item>
+  </a-assets>
+
+  <a-entity obj-model="obj: #control-obj; mtl: #control-mtl"></a-entity>
+  <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+  <a-sky color="#ECECEC"></a-sky>
+</a-scene>
+  
+  
+
+</body>
+
+</html>
